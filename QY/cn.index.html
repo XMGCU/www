@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Oxygen Not Included</title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。")
+   			
+   		});
+   		
+    </script>
+<style type="text/css">
+@import url("webfonts/Minecraft/stylesheet.css");
+body,td,th {
+    font-family: Minecraft;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+body {
+    background-image: url(../img/001.png);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+</style>
+ <meta http-equiv="refresh" content="1;url=cn.index.html">
+</head>
+<body>
+<p><img src="../img/TitleSmall.jpg" width="325" height="40" alt=""/></p>
+<p>缺氧XMGC下载专版</p>
+<p><span style="font-size: 24px">原版：</span><a href="../sl/cn.index.html"><img src="../img/BT0.png" width="150" height="30" alt=""/></a><a href="https://pan.izhuolin.cn/#/s/XdbsE"><img src="../img/WP1.png" width="150" height="30" alt=""/></a></p>
+<p style="font-size: 24px">中文安装版<img src="../img/WP1.png" width="150" height="30" alt=""/></p>
+<p><strong>V420700</strong><br>
+</p>
+<ul>
+  <li>Fix crash if a SweepyDock is destroyed while Sweepy is trying to charge<br>
+  </li>
+  <li>Fix crash when changing temperature units in the main menu<br>
+  </li>
+  <li>Fix crash on some Windows systems when loading the game<br>
+  </li>
+  <li>Decrease the brightness of Insulated Pipes / Insulated Vents. The prior color was making certain elements hard to see, notably Oxygen<br>
+  </li>
+</ul>
+<strong>v</strong><strong>419840（夏日补丁）</strong>
+<ul>
+  <li>色盲模式改进：<br>
+    ○ 现在农业概览支持备用颜色设定了<br>
+    ○ 现在电力概览支持备用颜色设定了，并且&ldquo;发电机&rdquo;图标在这些模式中更亮了<br>
+    ○ 现在房间概览支持备用颜色设定了。但这个概览用的颜色太多了，很难找到非常合<br>
+    适的对应颜色，所以这些颜色的选择只是为了让它们彼此看起来不一样而已<br>
+    ○ 现在病菌概览支持备用颜色设定了<br>
+    ○ 现在收获工具概览支持备用颜色设定了<br>
+    ○ 现在温度概览和热忍耐概览支持备用颜色设定了<br>
+    <br>
+    建筑<br>
+    ● 现在时间传感器的复制设置可以复制已运行时间以及模式<br>
+    ● 现在制冰机像其他产出建筑一样会过热了<br>
+    ● 现在扫扫基站会过热了<br>
+    ● 现在用敲击器敲击信号线/信号线组会正确地读取线/线组的长度<br>
+    ● 桑拿浴室只要存了足够的蒸汽，就不需要管道中的蒸汽来运作了<br>
+    ● 储液库和储气库会先测试逻辑，然后再将内容物的量四舍五入显示。修复了有时候它们只<br>
+    是&ldquo;接近&rdquo;激活量也会激活的问题<br>
+    ● 现在运载管道转角的动画长度都一致了<br>
+    ● 运载管道转角动画播放更快了，以便复制人能保持相同的速度<br>
+    ● 矿石洗涤器不再需要管道中有氯气才能工作。存储不足时也会显示一个红色状态图标了<br>
+    ● 现在技能涤除器有高优先级，这能帮助复制人优先执行它而不是忽略它<br>
+    ● 现在小动物喂食器、喂鱼器和诱饵是&ldquo;为放牧供应&rdquo;任务而不是&ldquo;储存&rdquo;任务<br>
+    ● 部分修正了垂直风洞下方有气体才能运作<br>
+    ● 现在户外厕所会正确地处理泥土了。每次使用消耗泥土（13千克），污染土输出包括使用<br>
+    的泥土（6.7千克 -&gt; 19.7千克）。在清理厕所时，泥土不再消除（而是与污染土一起掉落<br>
+    ），用过后拆除也不会返回完整状态的量。在清理后需要补充泥土完全后才能使用<br>
+    ● 复制设置会正确地更新液/气体调节阀的流速了<br>
+    <br>
+    复制人和小动物（以及机器人）<br>
+    ● 阻止了获取任务把东西放到不需要它们的地方，这会部分修复&ldquo;建筑总有奇怪的东西在里<br>
+    面&rdquo;的问题<br>
+    ● 如果扫扫机器人尝试充电时基站来电/断电了，扫扫机器人会正确地开始和停止充电<br>
+    ● 当复制人在一个不可呼吸的空间中时，由复制人呼出的二氧化碳不会再被向上传送了。相<br>
+    反，复制人会尝试找到附近的二氧化碳，可呼吸，或其他气体格来释放二氧化碳（注意：<br>
+    还是有可能会发生这样的问题，如果复制人在砖块边缘仍有可能将二氧化碳呼到不可呼吸<br>
+    的房间中）<br>
+    ● 修正了小动物喂食器的存储任务类型是为放牧供应而不是储存<br>
+    ● 复制人不再向与其所站格子不同的格子释放二氧化碳了。这可以防止他们将二氧化碳释放<br>
+    到那些密封/不可呼吸的房间中<br>
+    ● 复制人呼吸效果现在与复制人的嘴和脸的方向一直了。再也不会从后背中间呼气了！<br>
+    ● 如果有死亡的复制人，当游戏加载时，复制人不再重新获得&ldquo;哀悼&rdquo;状态<br>
+    ● 气球艺术家在喜悦反应期间有状态信息了<br>
+    <br>
+    系统和模拟<br>
+    ● 修复了部分熔化/部分汽化热计算。使用的能量应该是需求的能量，而不是可用能量的差<br>
+    异部分<br>
+    ● 修正了固体剥落的温度删减。会使用熔化所需的实际能量，和转变物质的比热容<br>
+    ● 修复了气体温度交换时的热损失<br>
+    ● 修复了自动清扫器无限给自己存东西而不运东西的问题<br>
+    ○ 不幸的是，这会退回之前修复的清扫器会掉落装载的内容物的问题 - 我们的运输系<br>
+    统暂时需要这样做才行<br>
+    ● 之前农业等级的种子几率奖励只应用了对应值的1/100，比如3%几率提升实际上只有<br>
+    0.03%。现在3%几率提升的意思就是3%几率提升（在10%的基础上）<br>
+    ● 修复了&ldquo;幽灵瓶子&rdquo;会出现在建筑之外的情况<br>
+    ● 修复了陨石产生的浮土出现在薄墙错误一侧的问题<br>
+    ● 修正了固态甲烷的熔点<br>
+    ● 复制人和机器人矿工不再无限挖掘了。如果你发现了任何新的奇怪的情况，请告诉我们。<br>
+    界面和文本<br>
+    ● 当资源以低帧率改变时，资源面板不再闪烁并可能导致游戏崩溃<br>
+    ● 修正了垂直风洞的描述<br>
+    ● 修复了乔木树会不正确地显示它有种子掉落几率的问题。必须用树鼠才能获得额外的乔木<br>
+    种子<br>
+    ● 明显降低了有模组存在时发生崩溃后需要等待的时间<br>
+    ● 传感器会显示内容物的正确名字，而不是它们的元素（比如遗传生物软泥）<br>
+    ● 将小抛壳蟹壳改名为小蟹壳，在有蟹壳出现的很多列表和界面中会更清楚，并修正了轨道<br>
+    元素传感器的功能<br>
+    ● 修复了维生素咀嚼片显示它们没效果的问题，实际效果是0.5<br>
+    ● 多个微芯片和微肥在地上分别会组合成一个物品<br>
+    ● 修复了拖拽工具（比如管道，取消）在UI附近点击不会停下来的问题<br>
+    ● 光照概览的颜色更鲜明了，更容易看出低光线等级了<br>
+    ● 当悬停在电线上时，如果潜在负载高于最大负载，当前负载只会加亮为&ldquo;紧张&rdquo;<br>
+    ● 星图中的&ldquo;进行中&rdquo;文本可翻译了<br>
+    ● 在简历中，复制人的年龄可翻译了<br>
+    ● 现在在对应概览下隔热管道是蓝色的而不是橙色的，与散热管道更能区分开了<br>
+    ● 复制人年龄可以正确地计算了<br>
+    ○ 同样，复制人打印的周期也正确了，而不是减1<br>
+    ● 更新了中文，韩文，俄文文本<br>
+  </li>
+</ul>
+</body>
+</html>
